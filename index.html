@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="img/Jc.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>JC | Desarrollador Web</title>
+</head>
+<body>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>Jc</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">Inicio</a></li>
+                            <li><a href="#competencias" onclick="seleccionar(this)">Competencias</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">Proyectos</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">Contacto</a></li>
+                        </ul>
+                    </nav>
+                    <!-- ICONOS DE MENU RESPONSIVO -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <!-- ICONO DE REDES SOCIALES -->
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/wjoaquincc/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.facebook.com/messages/t/100002424775689" target="_blank"><i class="fa-brands fa-facebook-messenger"></i></a>
+                        <a href="https://wa.me/51991867752" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Joaquin C</span>, <span class="typed"></span></h2>
+                <p class="descripcion">Apasionado desarrollador web junior comprometido con el aprendizaje constante y la creación de experiencias digitales envolventes.</p>
+                <a href="#portfolio">Ir a portfolio</a>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION COMPETENCIAS -->
+    <section id="competencias">
+        <h3 class="titulo-seccion">COMPETENCIAS</h3>
+        <!-- FILA-COMPETENCIA-1 -->
+        <div class="fila">
+            <div class="competencia">
+                <span class="icono"><i class="fa-brands fa-figma"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="competencia-tag">
+                    <li>Diseño</li>
+                    <li>Experiencia UX</li>
+                    <li>Creativo</li>
+                </ul>
+                <p>Transformo ideas en experiencias visuales excepcionales como diseñador web, fusionando creatividad y funcionalidad para cautivar a tu audiencia en línea.</p>
+            </div>
+            <div class="competencia">
+                <span class="icono"><i class="fa-brands fa-php"></i></span>
+                <h4>PHP</h4>
+                <hr>
+                <ul class="competencia-tag">
+                    <li>Escalable</li>
+                    <li>Rendimiento</li>
+                    <li>Seguridad</li>
+                </ul>
+                <p>Como experto desarrollador PHP, creo soluciones web dinámicas y personalizadas que impulsan la interacción y la eficiencia.</p>
+            </div>
+            <div class="competencia">
+                <span class="icono"><i class="fa-brands fa-square-js"></i></span>
+                <h4>Javascript</h4>
+                <hr>
+                <ul class="competencia-tag">
+                    <li>Desarrollo</li>
+                    <li>Front-end</li>
+                    <li>Full-stack</li>
+                </ul>
+                <p>
+                    Potencio proyectos como desarrollador JavaScript, construyendo interactividad cautivadora y funcionalidades innovadoras para una experiencia web envolvente.</p>
+            </div>
+        </div>
+        <!-- FILA-COMPETENCIA-2 -->
+        <div class="fila">
+            <div class="competencia">
+                <span class="icono"><i class="fa-brands fa-bootstrap"></i></span>
+                <h4>Bootstrap</h4>
+                <hr>
+                <ul class="competencia-tag">
+                    <li>Responsivo</li>
+                    <li>Rápido</li>
+                    <li>Personalizado</li>
+                </ul>
+                <p>Utilizo Bootstrap para transformar conceptos en interfaces web responsivas y estilizadas que destacan por su elegancia y usabilidad.</p>
+            </div>
+            <div class="competencia">
+                <span class="icono"><i class="fa-brands fa-wordpress-simple"></i></span>
+                <h4>Wordpress</h4>
+                <hr>
+                <ul class="competencia-tag">
+                    <li>Web</li>
+                    <li>Rendimiento</li>
+                    <li>Mantenimiento</li>
+                </ul>
+                <p>Como hábil desarrollador en WordPress, construyo sitios dinámicos y personalizables que materializan tus ideas y metas digitales.</p>
+            </div>
+            <div class="competencia">
+                <span class="icono"><i class="fa-solid fa-server"></i></span>
+                <h4>Base de datos</h4>
+                <hr>
+                <ul class="competencia-tag">
+                    <li>Análisis</li>
+                    <li>Visualización</li>
+                    <li>Eficiencia</li>
+                </ul>
+                <p>Ofrezco experiencia como analista de bases de datos para convertir datos en conocimiento, optimizando la toma de decisiones empresariales.</p>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">PROYECTOS</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/img3.png" alt="#">
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/img3.png" alt="#">
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/img3.png" alt="#">
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/img3.png" alt="#">
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/img3.png" alt="#">
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/img3.png" alt="#">
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION CONTACTO -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactame ahora</h3>
+        <div class="contenedor-form">
+            <form action="https://formsubmit.co/joaquinfc357@gmail.com" method="POST">
+                <div class="fila mitad">
+                    <input type="text" name="name" id="name" placeholder="Nombre completo" class="input-mitad">
+                    <input type="email" name="email" id="email" placeholder="Direccion de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" name="subject" id="subject" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="coments" id="coments" cols="30" rows="10" placeholder="Tu mensaje..." class="input-full"></textarea>
+                </div>
+                <input type="submit" value="Enviar mensaje" class="btn-enviar">
+                <!-- captcha -->
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+        </div>
+    </section>
+    <script src="script.js"></script>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
